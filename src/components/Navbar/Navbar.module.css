@@ -1,0 +1,50 @@
+.headerContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 48px 72px 30px;
+    background-color: var(--second-color);
+
+    .menuContainer {
+        width: 500px;
+        background-color: var(--principal-color);
+        border-radius: 50px;
+
+        ul {
+            display: flex;
+            list-style: none;
+            justify-content: space-between;
+            padding: 5px;
+
+
+            a {
+                text-decoration: none;
+                color: inherit;
+
+                li {
+                    width: 120px;
+                    text-align: center;
+
+                    &:hover {
+                        background-color: var(--second-color);
+                        border-radius: 50px;
+                        cursor: pointer;
+                    }
+                }
+            }
+        }
+
+    }
+
+    .freeTrial {
+        padding: 10px 40px;
+        color: var(--principal-color);
+        background-color: var(--fifth-color);
+        text-decoration: none;
+        border-radius: 50px;
+
+        &:hover {
+            background-color: var(--fourth-color);
+        }
+    }
+}
