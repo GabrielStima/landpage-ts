@@ -1,0 +1,8 @@
+.sectionOne {
+    background-color: var(--second-color);
+
+
+    h1 {
+        margin: 0;
+    }
+}

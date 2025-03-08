@@ -47,4 +47,25 @@
             background-color: var(--fourth-color);
         }
     }
+
+
+    @media screen and (max-width: 768px) {
+        padding: 48px 10px;
+
+        .menuContainer {
+            width: 300px;
+
+            ul {
+                a {
+                    li {
+                        width: 70px;
+                    }
+                }
+            }
+        }
+    }
+
+    @media screen and (max-width: 425px) {
+        flex-direction: column;
+    }
 }
